@@ -1,0 +1,14 @@
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.card-img-top {
+  border-radius: 8px;
+}
+
+.cardDetails {
+  margin-top: 12px;
+}

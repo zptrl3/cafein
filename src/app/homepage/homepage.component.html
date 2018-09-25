@@ -1,0 +1,40 @@
+<app-page-header></app-page-header>
+
+<div class="container">
+  <h1 align="center">All Locations</h1>
+  <div *ngFor="let location of allLocations" class="row">
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://picsum.photos/1900/1080?image=231">
+        <div class="cardDetails">
+          <h5 class="card-title">{{location.name}}</h5>
+          <p class="card-text">{{location.latitude}}</p>
+          <p>{{location.rating}}</p>
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://picsum.photos/1900/1080?image=232">
+        <div class="cardDetails">
+          <h5 class="card-title">Title</h5>
+          <p class="card-text">Distance</p>
+          <p>Rating</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://picsum.photos/1900/1080?image=233">
+        <div class="cardDetails">
+          <h5 class="card-title">Title</h5>
+          <p class="card-text">Distance</p>
+          <p>Rating</p>
+        </div>
+      </div>
+    </div>
+    -->
+  </div>
+</div>
